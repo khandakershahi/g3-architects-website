@@ -17,7 +17,7 @@
     color:  #FF900E;
 }
 
-/* dark-23 */
+/* dark-02 */
 .text-gray{
     color: #424242;
 }
@@ -46,7 +46,7 @@ main{
     margin: 0 auto;
 }
 
-main > section{
+main > section, footer{
     margin-top: 130px;
 }
 
@@ -246,6 +246,26 @@ main > section{
 }
 
 
+/* footer styles */
+
+footer{
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    margin: 130px auto 0 auto;
+}
+
+footer > div{
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
 
 /* responsive media query */
 
@@ -287,7 +307,9 @@ main > section{
   #experience-badge{
     margin: auto;
   }
-
+  footer{
+    width: auto;
+  }
    
     
 }
@@ -328,6 +350,10 @@ main > section{
         margin-left: 20px;
         margin-top: 20px;
        
+      }
+
+      footer{
+        width: auto;
       }
 
 }
